@@ -75,9 +75,9 @@ def lambda_handler(event, context):
 
     # ======================== EDIT THIS SECTION ========================================
     # Configure DynamoDB as part of Step 3
-    __TableName__ = 'DEDOREXP-streaming-dynamodb' # <-- Insert your table name
+    __TableName__ = '2401FTDEKGOMAK-streaming-dynamodb' # <-- Insert your table name
     # Configure Firehose service as part of Step 6
-    firehose_name = 'DEDOREXP-deliverystream' # <-- Insert your Firehose name
+    firehose_name = '2401FTDEKGOMAK-deliverystream' # <-- Insert your Firehose name
     # ===================================================================================
 
      # Set up logging
